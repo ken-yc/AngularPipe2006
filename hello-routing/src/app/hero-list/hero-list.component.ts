@@ -16,7 +16,7 @@ export class HeroListComponent implements OnInit {
   showImage = false;
 
   // Filter fields
-  attrListFilter = 'This is the initial value.';
+  attrListFilter = '';
 
   get listFilter() {
       return this.attrListFilter;
